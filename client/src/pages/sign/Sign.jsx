@@ -37,28 +37,28 @@ const Sign = () => {
       <div>
                 
         <label className='label p-2'>
-        <span className=' text-base label-text  text-gray-300'> fullname</span>
+        <span className=' text-base label-text  text-gray-300'> Fullname</span>
         </label>
-        <input type="text"  placeholder='Enter Your fullName' className=' w-full input input-bordered h-10' 
+        <input type="text"  placeholder='Enter Your Fullname' className=' w-full input input-bordered h-10' 
         value={inputs.fullname} onChange={(e) => setInputs({ ...inputs, fullname: e.target.value })} />
 
 
         <label className='label p-2'>
         <span className=' text-base label-text  text-gray-300 '> Username</span>
         </label>
-        <input type="text"  placeholder='Enter Your username' className=' w-full input input-bordered h-10' value={inputs.username}  onChange={(e) => setInputs({ ...inputs, username: e.target.value })} />
+        <input type="text"  placeholder='Enter Your Username' className=' w-full input input-bordered h-10' value={inputs.username}  onChange={(e) => setInputs({ ...inputs, username: e.target.value })} />
 
 
         <label className='label p-2 '>
         <span className=' text-base label-text  text-gray-300'> Password</span>
         </label>
-        <input type="text"  placeholder='Enter Your password' className=' w-full input input-bordered h-10' value={inputs.password} onChange={(e) => setInputs({ ...inputs, password: e.target.value })} />
+        <input type="text"  placeholder='Enter Your Password' className=' w-full input input-bordered h-10' value={inputs.password} onChange={(e) => setInputs({ ...inputs, password: e.target.value })} />
 
 
         <label className='label p-2'>
         <span className=' text-base label-text  text-gray-300 '> Confirmpasssword</span>
         </label>
-        <input type="text"  placeholder='re - enter password' className=' w-full input input-bordered h-10' value={inputs.confirmpassword} onChange={(e) => setInputs({ ...inputs, confirmpassword: e.target.value })}/>
+        <input type="text"  placeholder='re-enter Password' className=' w-full input input-bordered h-10' value={inputs.confirmpassword} onChange={(e) => setInputs({ ...inputs, confirmpassword: e.target.value })}/>
 
         <Link to={'/login'} className=' text-sm hover:underline hover:text-green-500 mt-2 inline-block  text-gray-300'>
         {"already"} have a account?
