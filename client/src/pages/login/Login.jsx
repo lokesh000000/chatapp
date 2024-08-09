@@ -29,13 +29,13 @@ const handlesubmit = async(e) => {
 <form onSubmit={handlesubmit}>
   <div>
     <label className='label p-2'>
-    <span className=' text-base label-text  text-gray-300 '> USername</span>
+    <span className=' text-base label-text  text-gray-300 '> Username</span>
     </label>
-    <input type="text"  placeholder='Enter Your username' className=' w-full input input-bordered h-10' value={username} onChange={(e)=>setUsername(e.target.value)}/>
+    <input type="text"  placeholder='Enter Your Username' className=' w-full input input-bordered h-10' value={username} onChange={(e)=>setUsername(e.target.value)}/>
     <label className='label p-2'>
 <span className=' text-base label-text  text-gray-300'> Password</span>
 </label>
-<input type="text"  placeholder='Enter Your passsword' className=' w-full input input-bordered h-10'  value={password} onChange={(e)=>setPassword(e.target.value)} />
+<input type="text"  placeholder='Enter Your Password' className=' w-full input input-bordered h-10'  value={password} onChange={(e)=>setPassword(e.target.value)} />
 <Link to={'/signup'} href="#" className=' text-sm hover:underline  text-gray-300 hover:text-green-500 mt-2 inline-block'>{"Dont"} have a account?</Link>
   </div>
 
